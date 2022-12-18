@@ -6,3 +6,5 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
+
+//実際に基礎となるプラットフォームAPIにアクセスしたい場合を除き、型を指定する必要はない。
