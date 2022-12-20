@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { Cats } from './interfaces/cats.interface';
 import { CatsService } from './cats.service';
-import { CreateCatDto } from './create-cat.dto';
+import { CreateCatDto } from './dto/create-cat.dto';
 //import { Request } from 'express';
 @Controller('cats')
 export class CatsController {

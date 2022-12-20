@@ -3,7 +3,13 @@ import { Cats } from './interfaces/cats.interface';
 
 @Injectable()
 export class CatsService {
-  private readonly cats: Cats[];
+  private readonly cats: Cats[] = [
+    {
+      name: 'mike',
+      age: 5,
+      breed: 'unknown',
+    },
+  ];
 
   create(cat: Cats) {
     this.cats.push(cat);
